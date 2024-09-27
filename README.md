@@ -15,8 +15,6 @@
 6. Kitchen: An abandoned kitchen with broken utensils and a lantern to be found.
 7. Attic: A dusty, dark area that can only be accessed with the lantern, hiding the Mysterious Amulet.
 8. Final Room: The final area that leads to either freedom or a sinister ending.
-9. 
-10. 
 
 **What items does your game have?**
 
@@ -31,6 +29,7 @@ The code is structured around three main components: structs, enums, and a proto
 
 1.Structs:
 -Location: This struct represents different rooms in the mansion. Each location has a name, a description, and possible exits.
+
 -Item: This struct represents items that can be picked up and interacted with. It conforms to the Interactable protocol.
 
 2.Enums: Direction: An enum that defines movement directions like north, south, east, west, up, and down.
